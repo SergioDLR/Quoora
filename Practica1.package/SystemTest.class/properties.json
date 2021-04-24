@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Practica1-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"auxSys",
+		"auxUser1",
+		"auxUser2"
+	],
+	"name" : "SystemTest",
+	"type" : "normal"
+}

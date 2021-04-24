@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Practica1-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"emotion",
+		"user",
+		"creation"
+	],
+	"name" : "Reaction",
+	"type" : "normal"
+}

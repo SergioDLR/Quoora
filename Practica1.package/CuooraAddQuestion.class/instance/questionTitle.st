@@ -1,0 +1,3 @@
+private
+questionTitle
+	^ _questionTitle

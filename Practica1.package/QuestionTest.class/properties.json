@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Practica1-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"anUser",
+		"aQuestion"
+	],
+	"name" : "QuestionTest",
+	"type" : "normal"
+}

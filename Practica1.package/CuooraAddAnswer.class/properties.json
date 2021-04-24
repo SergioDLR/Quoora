@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Practica1-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentUser",
+		"question",
+		"answerText"
+	],
+	"name" : "CuooraAddAnswer",
+	"type" : "normal"
+}

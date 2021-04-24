@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "FirstnameLastname 4/15/2019 23:35",
+	"super" : "Object",
+	"category" : "Practica1-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"username",
+		"password"
+	],
+	"name" : "CuooraLogin",
+	"type" : "normal"
+}

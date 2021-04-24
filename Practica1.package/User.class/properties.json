@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Practica1-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"password",
+		"creation",
+		"topics",
+		"followList"
+	],
+	"name" : "User",
+	"type" : "normal"
+}

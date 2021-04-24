@@ -1,0 +1,3 @@
+hooks
+style
+	^RenderingHelper style
