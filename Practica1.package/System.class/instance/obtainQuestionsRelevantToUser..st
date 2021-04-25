@@ -1,3 +1,3 @@
 as yet unclassified
-obtainQuestionsRelevantToUser: user
-	^(questions select: [ :q | q isRelevantToUser: user]) 
+obtainQuestionsRelevantToUser: arg1
+	^ questions select: [ :arg2 | arg2 isRelevantToUser: arg1 ]

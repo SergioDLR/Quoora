@@ -1,3 +1,3 @@
 hooks
 style
-	^RenderingHelper style
+	^ RenderingHelper style

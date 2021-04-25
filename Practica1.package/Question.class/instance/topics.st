@@ -1,3 +1,3 @@
 accessing
 topics
-	^topics 
+	^ topics

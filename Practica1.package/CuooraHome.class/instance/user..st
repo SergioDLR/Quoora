@@ -1,3 +1,3 @@
 accessing
-user: aUser
-	user := aUser
+user: arg1
+	user := arg1

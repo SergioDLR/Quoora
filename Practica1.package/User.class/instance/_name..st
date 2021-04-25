@@ -1,3 +1,3 @@
 accessing
-name: anObject
+_name: anObject
 	name := anObject

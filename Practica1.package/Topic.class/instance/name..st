@@ -1,3 +1,3 @@
 private
-name: eName
-	name := eName
+name: arg1
+	name := arg1

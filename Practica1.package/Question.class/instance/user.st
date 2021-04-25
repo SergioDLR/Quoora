@@ -1,3 +1,3 @@
 accessing
 user
-	^content user
+	^ content user

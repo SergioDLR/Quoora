@@ -1,3 +1,3 @@
 private 
-question: aQuestion
-	question := aQuestion
+question: arg1
+	question := arg1

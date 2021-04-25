@@ -1,3 +1,3 @@
 accessing
-username: anObject
-	username := anObject
+username: arg1
+	username := arg1

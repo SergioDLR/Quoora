@@ -1,3 +1,4 @@
 as yet unclassified
-addQuestion: question
-	questions add: question
+addQuestion: arg1
+	arg1 user addQuestion: arg1.
+	questions add: arg1

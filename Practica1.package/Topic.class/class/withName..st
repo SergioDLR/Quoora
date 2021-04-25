@@ -1,4 +1,6 @@
 as yet unclassified
-withName: nombre
-
-	^self new name: nombre; yourself 
+withName: arg1
+	| tmp2 |
+	tmp2 := self new.
+	tmp2 name: arg1.
+	^ tmp2 yourself

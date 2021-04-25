@@ -1,3 +1,10 @@
 as yet unclassified
-withTitle: aTitle andUser: aUser andRawTopics: rawTopics andText: text
-	^self new title: aTitle; user: aUser; topics: (self rawTopicsToTopics: rawTopics); text: text; yourself
+withTitle: arg1 andUser: arg2 andRawTopics: arg3 andText: arg4
+	| tmp2 |
+	tmp2 := self new.
+	tmp2
+		title: arg1;
+		user: arg2;
+		topics: (self rawTopicsToTopics: arg3);
+		text: arg4.
+	^ tmp2 yourself

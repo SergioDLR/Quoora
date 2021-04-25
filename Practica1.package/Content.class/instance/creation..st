@@ -1,3 +1,3 @@
 accessing
-creation: anObject
-	creation := anObject
+creation: arg1
+	creation := arg1

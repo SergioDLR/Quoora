@@ -1,6 +1,7 @@
 initialization
 initialize
 	creation := DateAndTime now.
+	questions:= Bag  new.
 	followList := Set new.
-	topics := Set new.
-	self follow: self.
+	topics := Set new.	
+	answers :=Bag new.

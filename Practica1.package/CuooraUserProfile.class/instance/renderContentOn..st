@@ -1,5 +1,5 @@
 rendering
-renderContentOn: html
-	self renderHeaderOn: html.
-	html horizontalRule.
-	self renderProfileOn: html.
+renderContentOn: arg1
+	self renderHeaderOn: arg1.
+	arg1 horizontalRule.
+	self renderProfileOn: arg1

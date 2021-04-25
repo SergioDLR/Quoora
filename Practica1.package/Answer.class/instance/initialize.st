@@ -1,4 +1,3 @@
 initialization
 initialize
-	content := Content new.
-	
+	content := Content new

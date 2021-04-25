@@ -1,10 +1,13 @@
 tests
 testBorrarPregunta
-	| auxPreg auxResp |
-
-	auxPreg := Question withTitle: '¬¨√∏Para que sirve x?' andUser: auxUser1 andRawTopics: '' andText: ''.
-	auxSys addQuestion: auxPreg.
-	auxResp := Answer withUser: auxUser2  andText: 'Sirve para ...'.
-	auxPreg addAnswer: auxResp.
-	auxSys deleteQuestion: auxPreg.
-	self assert: ((auxSys obtainQuestionsByUser: auxUser1) size) equals: 0
+	| tmp1 tmp2 |
+	tmp1 := Question
+		withTitle: '¬¨√∏Para que sirve x?'
+		andUser: auxUser1
+		andRawTopics: ''
+		andText: ''.
+	auxSys addQuestion: tmp1.
+	tmp2 := Answer withUser: auxUser2 andText: 'Sirve para ...'.
+	tmp1 addAnswer: tmp2.
+	auxSys deleteQuestion: tmp1.
+	self assert: (auxSys obtainQuestionsByUser: auxUser1) size equals: 0

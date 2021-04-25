@@ -1,3 +1,3 @@
 private 
-currentUser: anUser
-	currentUser := anUser
+currentUser: arg1
+	currentUser := arg1

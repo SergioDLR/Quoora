@@ -1,6 +1,6 @@
 hooks
 style
-	^	'
+	^ '
 		p {
 			color: red;
 		}

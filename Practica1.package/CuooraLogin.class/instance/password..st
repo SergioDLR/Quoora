@@ -1,3 +1,3 @@
 accessing
-password: anObject
-	password := anObject
+password: arg1
+	password := arg1

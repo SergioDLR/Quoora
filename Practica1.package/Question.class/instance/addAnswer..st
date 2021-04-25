@@ -1,3 +1,4 @@
 adding
-addAnswer: anAnswer
-	answers add: anAnswer
+addAnswer: respuesta
+	respuesta user addAnswer: respuesta.
+	answers add: respuesta

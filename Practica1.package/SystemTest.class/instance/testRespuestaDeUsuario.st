@@ -1,10 +1,12 @@
 tests
 testRespuestaDeUsuario
-	| auxPreg auxResp |
-
-	auxPreg := Question withTitle: '¬¨√∏Para que sirve x?' andUser: auxUser1  andRawTopics: '' andText: ''.
-	auxSys addQuestion: auxPreg.
-	auxResp := Answer withUser: auxUser2  andText: 'Sirve para ...'.
-	auxPreg  addAnswer: auxResp.
-	self assert: ((auxSys obtainAnswersByUser: auxUser2) size) equals: 1
-
+	| tmp1 tmp2 |
+	tmp1 := Question
+		withTitle: '¬¨√∏Para que sirve x?'
+		andUser: auxUser1
+		andRawTopics: ''
+		andText: ''.
+	auxSys addQuestion: tmp1.
+	tmp2 := Answer withUser: auxUser2 andText: 'Sirve para ...'.
+	tmp1 addAnswer: tmp2.
+	self assert: (auxSys obtainAnswersByUser: auxUser2) size equals: 1

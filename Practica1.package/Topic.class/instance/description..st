@@ -1,4 +1,3 @@
 private
-description: descr
-
-	description := descr
+description: arg1
+	description := arg1
