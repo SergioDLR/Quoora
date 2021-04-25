@@ -1,7 +1,7 @@
 rendering
-renderContentOn: html
-	self renderHeaderOn: html.
-	html horizontalRule.
-	self renderQuestionOn: html.	
-	html horizontalRule.
-	self renderFooterOn: html.
+renderContentOn: arg1
+	self renderHeaderOn: arg1.
+	arg1 horizontalRule.
+	self renderQuestionOn: arg1.
+	arg1 horizontalRule.
+	self renderFooterOn: arg1

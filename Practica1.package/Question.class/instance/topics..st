@@ -1,3 +1,3 @@
 private 
-topics: theTopics
-	topics := theTopics asBag
+topics: arg1
+	topics := arg1 asBag

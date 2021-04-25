@@ -1,3 +1,3 @@
 as yet unclassified
 countDislikes
-	^reactions count: [ :reaction | reaction emotion = #dislike ].
+	^ reactions count: [ :arg1 | arg1 emotion = #dislike ]

@@ -1,4 +1,7 @@
 private protocol
 login
-	(System getInstance loginWithUsername: username andPassword: password)
-		ifNotNil: [ :u | self call: (CuooraHome withUser: u). ]
+	| tmp1 |
+	(tmp1 := System getInstance
+		loginWithUsername: username
+		andPassword: password)
+		ifNotNil: [ self call: (CuooraHome withUser: tmp1) ]

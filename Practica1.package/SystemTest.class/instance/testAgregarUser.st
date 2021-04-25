@@ -1,4 +1,3 @@
 tests
 testAgregarUser
-	self assert: (auxSys obtainUsers size ) equals: 2. 
-
+	self assert: auxSys obtainUsers size equals: 2

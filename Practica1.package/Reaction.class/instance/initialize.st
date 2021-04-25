@@ -1,3 +1,3 @@
 initialization
 initialize
-	creation := DateAndTime now.
+	creation := DateAndTime now

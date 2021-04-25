@@ -1,5 +1,5 @@
 as yet unclassified
-registerMissingTopics: rawTopics
-	| candidates |
-	candidates := Question rawTopicsToTopics: rawTopics.
-	candidates do: [ :candidate | self addTopic: (Topic withName: candidate) ]
+registerMissingTopics: arg1
+	| tmp1 |
+	tmp1 := Question rawTopicsToTopics: arg1.
+	tmp1 do: [ :arg2 | self addTopic: (Topic withName: arg2) ]

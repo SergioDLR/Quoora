@@ -1,3 +1,3 @@
 private 
-title: anObject
-	title := anObject
+title: arg1
+	title := arg1

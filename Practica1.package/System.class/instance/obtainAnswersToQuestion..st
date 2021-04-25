@@ -1,3 +1,3 @@
 as yet unclassified
-obtainAnswersToQuestion: question
-	^question answers 
+obtainAnswersToQuestion: arg1
+	^ arg1 answers

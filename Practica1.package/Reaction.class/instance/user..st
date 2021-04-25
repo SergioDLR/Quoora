@@ -1,3 +1,3 @@
 private 
-user: anUser
-	user := anUser
+user: arg1
+	user := arg1

@@ -1,12 +1,10 @@
 accessing
-addReaction: aReaction
-	reactions detect: [ :r | r user = aReaction user ]
-		ifFound: [ :r |
-			(r emotion = aReaction emotion) ifFalse: [
-				reactions remove: r.
-				reactions add: aReaction
-			]
-		] 
-		ifNone: [
-			reactions add: aReaction
-		] 
+addReaction: arg1
+	reactions
+		detect: [ :arg2 | arg2 user = arg1 user ]
+		ifFound: [ :arg3 | 
+			arg3 emotion = arg1 emotion
+				ifFalse: [ reactions
+						remove: arg3;
+						add: arg1 ] ]
+		ifNone: [ reactions add: arg1 ]

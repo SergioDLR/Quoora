@@ -1,3 +1,3 @@
 private 
-emotion: anEmotion
-	emotion := anEmotion
+emotion: arg1
+	emotion := arg1

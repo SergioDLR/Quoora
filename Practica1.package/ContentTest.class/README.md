@@ -1,1 +1,0 @@
-A ContentTest is a test class for testing the behavior of Content

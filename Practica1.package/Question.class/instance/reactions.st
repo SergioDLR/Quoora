@@ -1,3 +1,3 @@
 accessing
 reactions
-	^content reactions 
+	^ content reactions

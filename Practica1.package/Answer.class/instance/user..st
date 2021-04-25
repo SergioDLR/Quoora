@@ -1,3 +1,3 @@
 accessing
-user: anUser
-	content user: anUser
+user: arg1
+	content user: arg1

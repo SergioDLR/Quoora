@@ -1,3 +1,3 @@
 adding
-addReaction: aReaction
-	content addReaction: aReaction
+addReaction: arg1
+	content addReaction: arg1

@@ -1,3 +1,3 @@
 private
-questionTitle: anObject
-	_questionTitle := anObject
+questionTitle: arg1
+	_questionTitle := arg1

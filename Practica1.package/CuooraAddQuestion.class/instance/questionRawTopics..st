@@ -1,3 +1,3 @@
 private
-questionRawTopics: anObject
-	_questionRawTopics := anObject
+questionRawTopics: arg1
+	_questionRawTopics := arg1

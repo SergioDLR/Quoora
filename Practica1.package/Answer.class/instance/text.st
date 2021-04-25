@@ -1,3 +1,3 @@
 accessing
 text
-	^content text
+	^ content text

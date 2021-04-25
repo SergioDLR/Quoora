@@ -1,3 +1,3 @@
 as yet unclassified
 withName: aName andPassword: aPassword
-	^self new name: aName; _password: aPassword; yourself
+	^self new _name: aName; _password: aPassword; yourself

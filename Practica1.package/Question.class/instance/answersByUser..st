@@ -1,3 +1,3 @@
 as yet unclassified
-answersByUser: anUser
-	^self answers select: [ :answer | answer user = anUser ].
+answersByUser: arg1
+	^ self answers select: [ :arg2 | arg2 user = arg1 ]

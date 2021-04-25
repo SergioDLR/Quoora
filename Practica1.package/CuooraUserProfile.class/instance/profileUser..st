@@ -1,3 +1,3 @@
 private
-profileUser: anUser
-	profileUser := anUser
+profileUser: arg1
+	profileUser := arg1

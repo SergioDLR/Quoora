@@ -10,7 +10,9 @@
 		"password",
 		"creation",
 		"topics",
-		"followList"
+		"followList",
+		"questions",
+		"answers"
 	],
 	"name" : "User",
 	"type" : "normal"

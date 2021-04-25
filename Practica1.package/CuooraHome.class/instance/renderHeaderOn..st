@@ -1,3 +1,6 @@
 private 
-renderHeaderOn: html
-	RenderingHelper renderHeaderViewByUser: user inComponent: self usingBrush: html 
+renderHeaderOn: arg1
+	RenderingHelper
+		renderHeaderViewByUser: user
+		inComponent: self
+		usingBrush: arg1

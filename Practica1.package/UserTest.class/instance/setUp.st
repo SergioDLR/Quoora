@@ -1,3 +1,3 @@
 running
 setUp
-	auxUser := User withName: 'Pepe' andPassword: 'pass'.
+	auxUser := User withName: 'Pepe' andPassword: 'pass'

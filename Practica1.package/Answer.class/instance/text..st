@@ -1,3 +1,3 @@
 private 
-text: aText
-	content text: aText
+text: arg1
+	content text: arg1

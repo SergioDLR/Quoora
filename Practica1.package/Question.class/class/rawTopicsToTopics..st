@@ -1,3 +1,5 @@
 private
-rawTopicsToTopics: rawTopics
-  ^(rawTopics = '') ifTrue: [ Bag new ] ifFalse: [ (rawTopics splitOn: ',') asBag ]
+rawTopicsToTopics: arg1
+	^ arg1 = ''
+		ifTrue: [ Bag new ]
+		ifFalse: [ (arg1 splitOn: ',') asBag ]

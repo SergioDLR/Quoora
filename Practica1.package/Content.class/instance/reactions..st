@@ -1,3 +1,3 @@
 accessing
-reactions: anObject
-	reactions := anObject
+reactions: arg1
+	reactions := arg1
