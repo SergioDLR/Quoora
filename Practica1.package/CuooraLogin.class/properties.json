@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "FirstnameLastname 4/15/2019 23:35",
-	"super" : "Object",
+	"super" : "WAComponent",
 	"category" : "Practica1-Web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
