@@ -21,14 +21,7 @@ renderContentOn: arg1
 				value: 'Cancel'.
 			tmp4 := arg1 submitButton.
 			tmp4
-				callback: [ | tmp5 |
-					System getInstance registerMissingTopics: _questionRawTopics.
-					tmp5 := Question
-						withTitle: _questionTitle
-						andUser: currentUser
-						andRawTopics: _questionRawTopics
-						andText: _questionText.
-					System getInstance addQuestion: tmp5.
+				callback: [ 
 					self
-						call: (CuooraQuestion withCurrentUser: currentUser andQuestion: tmp5) ];
+						call: (CuooraQuestion withCurrentUser: currentUser andTitle: _questionTitle andText:_questionText andTopics:_questionRawTopics) ];
 				value: 'Save' ]
