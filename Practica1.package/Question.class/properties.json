@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Answer",
 	"category" : "Practica1-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,8 +8,7 @@
 	"instvars" : [
 		"title",
 		"topics",
-		"answers",
-		"content"
+		"answers"
 	],
 	"name" : "Question",
 	"type" : "normal"
