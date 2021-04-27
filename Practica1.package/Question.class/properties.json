@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Answer",
+	"super" : "Publicacion",
 	"category" : "Practica1-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
