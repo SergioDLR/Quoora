@@ -44,6 +44,6 @@ renderAnswer: arg1 withBrush: arg2
 					tmp15 := arg2 anchor.
 					tmp15
 						callback: [ | tmp16 |
-							tmp16 := Reaction dislikByUser: currentUser.
+							tmp16 := Reaction dislikeByUser: currentUser.
 							arg1 addReaction: tmp16 ];
 						with: 'Dislike' ] ]

@@ -20,7 +20,7 @@ renderContentOn: arg1
 				value: 'Cancel'.
 			tmp4 := arg1 submitButton.
 			tmp4
-				callback: [ question
+				callback: [ 1
 						addAnswer: (Answer withUser: currentUser andText: answerText).
 					self
 						call: (CuooraQuestion withCurrentUser: currentUser andQuestion: question) ];
