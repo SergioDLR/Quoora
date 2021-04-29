@@ -24,10 +24,9 @@ arg1 div class:'container'; with:[
 			tmp4 := arg1 submitButton.
 			tmp4
 				class:'btn btn-primary';
-				callback: [ question
-						addAnswer: (Answer withUser: currentUser andText: answerText).
+				callback: [
 					self
-						call: (CuooraQuestion withCurrentUser: currentUser andQuestion: question) ];
+						call: (CuooraQuestion withCurrentUser: currentUser andQuestion: question andAnswerText:answerText) ];
 				value: 'Save' ]
 			].
 		].
