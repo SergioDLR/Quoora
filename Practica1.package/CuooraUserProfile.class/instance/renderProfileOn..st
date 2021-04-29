@@ -5,6 +5,7 @@ renderProfileOn: arg1
 	arg1 heading: ('Puntuacion: {1}' format: {profileUser puntuacion}).
 	tmp2 := arg1 anchor.
 	tmp2
+	class:'btn btn-primary mb-3';
 		callback: [ currentUser follow: profileUser ];
 		with: ('Follow {1}' format: {profileUser name}).
 	(System getInstance obtainQuestionsByUser: profileUser)

@@ -1,5 +1,12 @@
 private 
 renderAnswer: arg1 withBrush: arg2
+arg2 div
+	class:'row mt-3'; with:[
+	arg2 div class:'col-8'; with:[
+	arg2 div
+	class:'card';
+		with: [
+			arg2 div class:'card-body';with:[
 	arg2 div
 		with: [ | tmp2 tmp6 tmp8 tmp10 |
 			tmp2 := arg2 div.
@@ -47,3 +54,7 @@ renderAnswer: arg1 withBrush: arg2
 							tmp16 := Reaction dislikeByUser: currentUser.
 							arg1 addReaction: tmp16 ];
 						with: 'Dislike' ] ]
+				]
+			]
+		]
+	].

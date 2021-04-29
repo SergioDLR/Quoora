@@ -1,11 +1,20 @@
 rendering
 renderQuestion: arg1 viewByUser: arg2 inComponent: arg3 usingBrush: arg4
+arg4 div class:'row';with:[
+		arg4 div class:'col-8 mb-3';with:[
+				arg4 div
+					class:'card';
+						with: [
+							arg4 div 
+							class:'card-body';
+							with:[
 	arg4 div
 		with: [ | tmp2 tmp4 tmp6 tmp10 |
 			tmp2 := arg4 anchor.
 			tmp2
 				callback: [ arg3 call: (CuooraQuestion withCurrentUser: arg2 andQuestion: arg1) ];
-				with: [ arg4 paragraph: arg1 title ].
+				with: [ arg4 heading: arg1 title ].
+			arg4 paragraph:  arg1	 contentText .
 			tmp4 := arg4 div.
 			tmp4
 				class: 'question-topics';
@@ -47,3 +56,7 @@ renderQuestion: arg1 viewByUser: arg2 inComponent: arg3 usingBrush: arg4
 							tmp16 := Reaction dislikeByUser: arg2.
 							arg1 addReaction: tmp16 ];
 						with: 'Dislike' ] ]
+				].
+			].
+		].
+	].

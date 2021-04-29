@@ -7,8 +7,9 @@ renderLastQuestions: arg1
 		with: [ | tmp4 |
 			tmp4 := arg1 anchor.
 			tmp4
+				class:'btn btn-primary';
 				callback: [ self call: (CuooraAddQuestion withCurrentUser: user) ];
-				with: '(+) New question'.
+				with: ' New question'.
 			arg1 heading: 'Last questions'.
 			(System getInstance
 				obtainQuestionsRelevantToUser: user
